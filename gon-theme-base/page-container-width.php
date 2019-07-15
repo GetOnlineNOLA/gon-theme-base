@@ -1,11 +1,11 @@
 <?php 
 
-/*Template Name: page-full-width*/
+/*Template Name: page-container-width*/
 
 get_header(); ?>
 
-<section id="page-full-width-template" class="content-wrapper">
-  <div class='container-fluid'>
+<section id="page-container-width-template" class="content-wrapper">
+  <div class='container'>
     <div class='row'>
       <div class="col-sm-12">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
