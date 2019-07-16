@@ -313,19 +313,6 @@ function cc_mime_types($mimes) {
 add_filter('upload_mimes', 'cc_mime_types');
 
 
-//Custom footer script
-add_action('wp_footer','footer_css_load');
-function footer_css_load(){ ?>
-
-<script>
-jQuery(window).on('load',function(){
-    jQuery('body').append('<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/fonts/socialicious/css/socialicious.css">');
-})
-</script>
-
-
-<?php }
-
 
 
 
