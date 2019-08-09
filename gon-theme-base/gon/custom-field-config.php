@@ -377,22 +377,12 @@ acf_add_local_field_group(array(
 	'location' => array(
 		array(
 			array(
-				'param' => 'page_template',
-				'operator' => '!=',
-				'value' => 'page-home.php',
-			),
-			array(
 				'param' => 'post_type',
 				'operator' => '!=',
 				'value' => 'post',
 			),
 		),
 		array(
-			array(
-				'param' => 'page_template',
-				'operator' => '!=',
-				'value' => 'page-home.php',
-			),
 			array(
 				'param' => 'post_type',
 				'operator' => '==',
